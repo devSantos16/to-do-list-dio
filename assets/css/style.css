@@ -27,7 +27,7 @@ header {
 
 .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
     justify-content: center;
@@ -35,11 +35,11 @@ header {
 }
 
 .content button{
-    padding: 10px 80px;
-    background-color: #9BA1A7    ;
-    border: 1px solid white;
-    font-size: 1.25em;
-    color: white;
+    padding: 10px 20px;
+    border: 1px solid whitesmoke;
+    font-size: 1em;
+    background-color: #273340;
+    color: whitesmoke;
     border-radius: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -50,12 +50,13 @@ header {
     border-radius: 5px;
     border: 1px solid white;
     width: 20%;
-    height: 20px;
+    height: 10px;
     font-size: 1.25em;
     color: #9BA1A7;
 }
 
 .to-do-list-event{
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
